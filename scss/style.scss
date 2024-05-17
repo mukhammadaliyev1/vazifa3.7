@@ -4,6 +4,10 @@
 
 
 }
+@import '_about.scss' ;
+
+@import '_features.scss';
+@import '_mission';
 .header__container{
    
     display: flex;
@@ -102,5 +106,72 @@ background-image: url('/images/Group\ 15.png');
 background-size: 1440px , 762px;
 background-repeat: no-repeat;
 padding-top: 220px;
+text-transform: uppercase;
+h2{
+
+    width: 389px;
+    font-family: Oswald;
+font-size: 45px;
+font-weight: 500;
+line-height: 54px;
+text-align: left;
+margin-left: 109px;
+margin-top: -81px;
+color: #363739;
+
+span{
+    font-family: Oswald;
+font-size: 45px;
+font-weight: 500;
+line-height: 54px;
+text-align: left;
+color:  #3EA83B;
+}
+}
+
+
+h1{
+    font-family: Oswald;
+font-size: 122px;
+font-weight: 700;
+line-height: 69px;
+text-align: left;
+margin-left: 109px;
+color:#3EA83B ;
+margin-top: 12px;
+
+}
+
+.button{
+    width: 195px;
+height: 56px;
+border: none;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+padding-left: 54px;
+color: #fff;
+background-color: #3EA83B;
+cursor: pointer;
+
+margin-left: 109px;
+margin-top: 90px;
+border-radius: 43px ;
+
+
+  }
+}
+
+.yum{
+
+.oval1{
+    width: 16px;
+height: 16px;
+border-radius:50% ;
+
+color: #FFF;
+}
 
 }
